@@ -28,7 +28,7 @@ export default class Menu extends React.Component {
 
         const anim = this.state.drawerWidth.interpolate({
             inputRange: [0, 1, 2],
-            outoutRange: [fullWidth - 60, 80, 0],
+            outputRange: [fullWidth - 60, 80, 0],
         });
 
         return (
